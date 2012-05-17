@@ -47,6 +47,7 @@ Result:
     packed dolls:
 
     name    weight value
+    sally       4    50
     eddie       7    20
     grumpy     22    80
     dusty      43    75
