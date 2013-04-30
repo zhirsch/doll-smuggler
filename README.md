@@ -10,7 +10,11 @@ Produces the optimal set of drug-packed porcelain dolls which:
 * are within the total weight restriction
 * maximize the total street value of drugs delivered
 
-Include a set of executable high-level tests for your solution. The following is a set of inputs for which the correct result is known:
+Requirements:
+
+* use leiningen - https://github.com/technomancy/leiningen
+* include multiple high-level test cases to validate your solution (like the one included below)
+* provide instructions in a README for running your test suite from the command line
 
 Input:
 
@@ -60,9 +64,7 @@ Result:
     anthony    13    35
     luke        9   150
 
-Hints:
+Hint:
 
-* use leiningen - https://github.com/technomancy/leiningen
 * read this - http://en.wikipedia.org/wiki/Knapsack_problem
-* find more interesting example data for test cases on the internets
 
