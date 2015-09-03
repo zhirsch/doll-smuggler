@@ -36,7 +36,7 @@ Input:
     marc       11    70
     kate       32    30
     tbone      24    15
-    tranny     48    10
+    tommy      48    10
     uma        73    40
     grumpkin   42    70
     dusty      43    75
