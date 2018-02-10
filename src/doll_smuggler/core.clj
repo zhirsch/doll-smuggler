@@ -1,10 +1,7 @@
 (ns doll-smuggler.core
-  (:gen-class))
-
-(use 'clojure.pprint)
-
-(load "input")
+  (:require [clojure.pprint :refer [pprint]]
+            [doll-smuggler.input :refer [parse-file-contents]]))
 
 (defn -main
   [path]
-  (pprint (parse-file (slurp path))))
+  (pprint (parse-file-contents (slurp path))))
