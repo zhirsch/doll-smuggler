@@ -2,13 +2,13 @@
   (:require [doll-smuggler.types :refer [make-doll make-problem]]
             [clojure.string :refer [split-lines]]))
 
-(def PATTERN #"max\s+weight:\s+(\S+)\s*\n\s*\navailable\s+dolls:\s*\n\s*\nname\s+weight\s+value\s*\n((?s).*)")
-(def DOLL_PATTERN #"(\S+)\s+(\S+)\s+(\S+)\s*")
+(def PATTERN #"max\s+weight:\s+(\d+)\s*\n\s*\navailable\s+dolls:\s*\n\s*\nname\s+weight\s+value\s*\n((?s).*)")
+(def DOLL_PATTERN #"(\S+)\s+(\d+)\s+(\d+)\s*")
 
 (defn parse-dolls
   "Parses the lines that define dolls in an input file."
   [dolls-str]
-  (loop [lines (split-lines dolls-str), dolls '()]
+  (loop [lines (split-lines dolls-str), dolls []]
     (if (empty? lines)
       dolls
       (let [[matches? name weight-str value-str] (re-matches DOLL_PATTERN (first lines))]

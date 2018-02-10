@@ -8,7 +8,7 @@
   "Makes a new Problem with a max weight and a list of dolls."
   [max-weight-str dolls]
   (try
-    (let [max-weight (Float/parseFloat max-weight-str)]
+    (let [max-weight (Long/parseLong max-weight-str)]
       (if (< max-weight 0)
         nil
         (Problem. max-weight dolls)))
@@ -21,7 +21,7 @@
   "Makes a new Doll with a name, weight, and value."
   [name weight-str value-str]
   (try
-    (let [weight (Float/parseFloat weight-str), value (Float/parseFloat value-str)]
+    (let [weight (Long/parseLong weight-str), value (Long/parseLong value-str)]
       (cond
         (< weight 0) nil
         (< value 0) nil
