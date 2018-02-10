@@ -1,7 +1,10 @@
 (ns doll-smuggler.core
   (:gen-class))
 
+(use 'clojure.pprint)
+
+(load "input")
+
 (defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+  [path]
+  (pprint (parse-file (slurp path))))
