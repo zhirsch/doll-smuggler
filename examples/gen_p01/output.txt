@@ -1,0 +1,8 @@
+packed dolls:
+
+name    weight value
+name_5     38    43
+name_3     44    68
+name_2     29    49
+name_1     31    57
+name_0     23    92

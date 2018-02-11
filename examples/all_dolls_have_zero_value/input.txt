@@ -1,0 +1,9 @@
+max weight: 400
+
+available dolls:
+
+name    weight value
+luke        9     0
+anthony    13     0
+candice   153     0
+dorothy    50     0

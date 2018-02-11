@@ -38,6 +38,8 @@
 ;;   * i -- the 1-based index of a doll.
 ;;   * w -- the remaining weight available.
 
+;; TODO(zhirsch): This could probably be simplified by using the "memoize" function.
+
 (defn init-V
   "Initializes V to map (0, w) -> 0 for 0 <= w <= max-weight."
   [problem]

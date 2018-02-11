@@ -1,0 +1,12 @@
+max weight: 50
+
+available dolls:
+
+name    weight value
+name_0     31    70
+name_1     10    20
+name_2     20    39
+name_3     19    37
+name_4      4     7
+name_5      3     5
+name_6      6    10

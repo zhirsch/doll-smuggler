@@ -1,0 +1,11 @@
+max weight: 190
+
+available dolls:
+
+name    weight value
+name_0     56    50
+name_1     59    50
+name_2     80    64
+name_3     64    46
+name_4     75    50
+name_5     17     5
