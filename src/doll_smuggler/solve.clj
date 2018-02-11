@@ -28,6 +28,16 @@
 ;;   2. It keeps track of specifically which dolls are in the subset of packed
 ;;      dolls.
 ;;
+;; The dynamic programming solution computes entries in a map for each possible
+;; combination of doll index and remaining weight, starting from 0 and
+;; incrementing by 1 each time.  Since computing the optimal value for the ith
+;; doll with remaining weight w relies only on the (i - 1)th doll and a smaller
+;; remaining weight, this avoids the need to recompute already computed values.
+;;
+;; The run time of this problem is O(N * W), where N is the number of dolls
+;; and W is the max weight.  So this algorithm quickly gets slow if there is a
+;; large number of dolls or a large max weight.
+;;
 ;; In the implementation below, variables have the following meanings:
 ;;   * V -- a map from ith doll and remaining weight to the maximum value, if
 ;;          it's already been computed.  This is the table used for dynamic
