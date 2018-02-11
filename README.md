@@ -1,12 +1,12 @@
-= Doll Smuggler
+# Doll Smuggler
 
 See https://github.com/micahalles/doll-smuggler for the original README.
 
-== Dependencies ==
+## Dependencies
 
 The only dependency is [leiningen](https://github.com/technomancy/leiningen).
 
-== Usage ==
+## Usage
 
 To run the solver on an input, execute `lein run path/to/input.txt`.  The input
 must be formated like:
@@ -35,7 +35,7 @@ anthony    30    35
 luke       10   150
 ```
 
-== Testing ==
+## Testing
 
 To run the tests, execute `./test.sh`.  This will run both `lein test` and
 `lein run` for every example in the `examples` directory.
