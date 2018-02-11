@@ -1,0 +1,7 @@
+packed dolls:
+
+name    weight value
+dorothy    40    10
+candice    30    10
+anthony    20    10
+luke       10    10

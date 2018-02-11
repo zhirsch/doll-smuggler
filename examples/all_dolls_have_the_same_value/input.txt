@@ -1,0 +1,15 @@
+max weight: 100
+
+available dolls:
+
+name    weight value
+luke       10    10
+anthony    20    10
+candice    30    10
+dorothy    40    10
+puppy      50    10
+thomas     60    10
+randal     70    10
+april      80    10
+nancy      90    10
+bonnie    100    10

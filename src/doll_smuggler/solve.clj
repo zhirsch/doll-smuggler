@@ -74,7 +74,7 @@
       ;; Include this doll if the value of including it is more than the value
       ;; of excluding it.
       (let [include-value (compute-include-value problem V i w)]
-        (if (> include-value exclude-value)
+        (if (>= include-value exclude-value)
           [(assoc V key include-value) (assoc K key 1)]
           [(assoc V key exclude-value) (assoc K key 0)])))))
 

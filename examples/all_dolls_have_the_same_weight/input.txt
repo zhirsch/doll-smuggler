@@ -1,0 +1,27 @@
+max weight: 100
+
+available dolls:
+
+name    weight value
+luke       30   150
+anthony    30    35
+candice    30   200
+dorothy    30   160
+puppy      30    60
+thomas     30    45
+randal     30    60
+april      30    40
+nancy      30    30
+bonnie     30    10
+marc       30    70
+kate       30    30
+tbone      30    15
+tommy      30    10
+uma        30    40
+grumpkin   30    70
+dusty      30    75
+grumpy     30    80
+eddie      30    20
+tory       30    12
+sally      30    50
+babe       30    10
